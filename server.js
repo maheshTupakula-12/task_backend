@@ -11,7 +11,7 @@ require('./dbconnection/mongo')
 const port = process.env.PORT || 8080;
 
 app.use(cors({
-    origin : ['http://localhost:5173','https://myassignment12.netlify.app/'],
+    origin : ['http://localhost:5173','https://myassignment12.netlify.app'],
     credentials:true
 }))
 
